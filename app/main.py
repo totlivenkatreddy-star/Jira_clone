@@ -3,4 +3,7 @@ from app.routes.landpage_api import router
 
 
 app= FastAPI()
-app.include_router(router)
+#app.include_router(router)
+app.include_router(
+    router
+)

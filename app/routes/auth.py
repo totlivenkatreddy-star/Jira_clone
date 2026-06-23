@@ -1,10 +1,6 @@
 from fastapi import APIRouter
 
-router= APIRouter()
-#landing page
-@router.get("/")
-def land_page():
-    return {"message":"this is a landing page"}
+router = APIRouter()
 
 
 # Dummy database
