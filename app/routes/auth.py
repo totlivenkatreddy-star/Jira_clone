@@ -12,7 +12,7 @@ users = [
     }
 ]
 
-
+#login user works  with swagger only
 @router.post("/login")
 def login(email: str, password: str):
 
